@@ -54,7 +54,7 @@ namespace Tyuiu.KoevaSJ.Sprint4.Task1.V6
             Console.WriteLine("******************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                 *");
             Console.WriteLine("******************************************************************************");
-            Console.WriteLine("Сумма четных элементов массива: ");
+            Console.WriteLine("Произведение четных элементов массива: ");
 
             int res = ds.Calculate(sumArray);
 

@@ -12,17 +12,15 @@ namespace Tyuiu.KoevaSJ.Sprint4.Task1.V6.Lib
     {
         public int Calculate(int[] array)
         {
-            int sum = 0;
-
-            for (int i = 0; i <= array.Length - 1; i++)
+            int res = 1;
+            foreach (int i in array)
             {
-                if (array[i] % 2 == 0)
+                if (i % 2 == 0)
                 {
-                    sum += array[i];
+                    res = res * i;
                 }
             }
-
-            return sum;
+            return res;
 
         }
     }
